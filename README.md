@@ -15,8 +15,6 @@
 ## Resumo do projeto
 
 
-### O que deve ser feito: 
-
 <img src="https://github.com/campinho-digital/ciclo-1-desafio-1/assets/108235987/37aa4975-97d0-4c68-80f2-700914f5d0b0" alt="Instagram post dia do garçom ilustrado preto e amarelo" width="300">
 
 
@@ -24,7 +22,7 @@
 Um restaurante quer proporcionar aos seus garçons uma maneira mais rápida de calcular o valor total da conta e garantir uma maior agilidade no pagamento. Para isso precisam de um programa que receba o número de pessoas na mesa, o valor da comanda e devolva quanto cada cliente daquela mesa precisará pagar. 
 
 :warning: O restaurante oferece um desconto de 10% se o pagamento for feito via PIX ou em dinheiro, então o programa precisa ter a opção de inserir o meio de pagamento e calcular automaticamente esse desconto antes de exibir a conta final aos clientes. 
-
+## :pushpin: O que deve ser feito: 
 Seu desafio é  criar esse programa que será utilizado pelos garçons do estabelecimento, lembre-se de que será preciso  inserir o número de pessoas na mesa, o valor total da conta e o método de pagamento. O programa então calculará o valor total com o desconto aplicado, bem como o valor que cada pessoa deve pagar.
 
 
@@ -86,14 +84,35 @@ Seu desafio é  criar esse programa que será utilizado pelos garçons do estabe
 
 ## :shipit: Dicas
 
+
+ - Certifique-se de estar com a sua maquina configurada de acordo com as aulas vistas anteriormente.
+
+ - Lembre se que o método `prompt()` em JavaScript retorna uma string. Ele exibe uma caixa de diálogo que permite ao usuário inserir um texto e retorna esse texto como uma string. 
+para efetuar uma operação matemática precisamos trabalhar com números ou seja será preciso converter nosso tipo string para um tipo number :arrow_heading_down:
+
+
 ~~~javascript
-
-
+let stringNumero = "123";
+let numeroInteiro = parseInt(stringNumero);
+console.log(numeroInteiro); // Saída: 123
 ~~~
 
-- Certifique-se de estar com a sua maquina configurada de acordo com as aulas vistas anteriormente.
-- Validação de entrada: Certifique-se de validar os dados de entrada para garantir que sejam do tipo esperado e dentro dos limites aceitáveis.
-  
+
+- os parênteses (()) são usados para controlar a ordem de avaliação das expressões em uma operação. Isso é conhecido como precedência de operadores.
+
+#####  Neste caso, de acordo com a precedência de operadores padrão, a multiplicação (*) é avaliada antes da adição (+), resultando em 3 * 4 = 12, e então 2 + 12 = 14.
+~~~javascript
+let resultado = 2 + 3 * 4;
+console.log(resultado); // Saída: 14
+~~~
+
+##### Agora, se quisermos que a adição seja avaliada antes da multiplicação, podemos usar parênteses para forçar a ordem de avaliação como abaixo, os parênteses indicam que a adição deve ser feita primeiro, resultando em 2 + 3 = 5, e então 5 * 4 = 20.
+
+~~~javascript
+let resultado = (2 + 3) * 4;
+console.log(resultado); // Saída: 20
+~~~
+
 
 
 
