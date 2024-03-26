@@ -34,7 +34,7 @@ Seu desafio é  criar esse programa que será utilizado pelos garçons do estabe
   
 ### JavaScript:
 
-- Saída de dados com `alert()`
+- Saída de dados com `console.log()`
 - Variáveis e constantes 
 - Entrada de dados com `prompt()`
 - Entrada de dados e uso de variáveis
