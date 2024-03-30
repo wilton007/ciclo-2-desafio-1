@@ -1,0 +1,85 @@
+body {
+    background-color:rgb(0, 178, 223);
+     align-items: center;
+    justify-content: center;
+    display:flex;
+}
+#geral {
+ margin-top: 100px;
+ background-color: aliceblue;
+ width: 400px;
+ align-items: center;
+ justify-content: center;
+ height: 410px;
+ border-radius: 20px;
+}
+
+#quantidadePessoas{
+    width: 255px;
+    border: 2px;
+    
+    border-radius: 8px;
+    height: 20px;
+    margin-left: 70px;
+    background-color: rgb(79, 220, 255);
+}
+
+#valorComanda{
+    width: 255px;
+    border: 2px;
+    
+    border-radius: 8px;
+    height: 20px;
+    margin-left: 70px;
+    background-color: rgb(79, 220, 255);
+    
+}
+
+#botao{
+    width: 150px;
+    height: 40px;
+    margin-left: 125px;
+    background-color: rgb(79, 220, 255);
+    border-radius: 15px;
+    border: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    
+    
+
+}
+
+label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    margin-left: 72px;
+}
+
+
+#resu{
+    border-radius: 10px;
+    border: 2px;
+    
+   
+    margin-top: 25px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    display: flex;
+    background-color: rgb(79, 220, 255);
+    width: 260px;
+    height: 100px;
+    
+}
+
+#resultado{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    margin-left: 15px;
+    
+}
+
+#formulario{
+    margin-left: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
